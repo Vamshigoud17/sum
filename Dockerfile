@@ -5,7 +5,7 @@ FROM python:3.9-slim
 WORKDIR /app
 
 # Copy the Python script into the container
-COPY sum.py .
+COPY sum.py
 
 # Run the Python script
 CMD ["python", "sum.py"]
